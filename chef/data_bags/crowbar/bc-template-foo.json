@@ -1,0 +1,26 @@
+{
+  "id": "bc-template-foo",
+  "description": "Cloud Foundry service (OpenPaaS) for the cloud",
+  "attributes": {
+    "foo": {
+      "foo": "bar"
+    }
+  },
+  "deployment": {
+    "foo": {
+      "crowbar-revision": 0,
+      "elements": {},
+      "element_order": [
+        [ "foo-server" ]
+      ],
+      "config": {
+        "environment": "foo-base-config",
+        "mode": "full",
+        "transitions": false,
+        "transition_list": [
+        ]
+      }
+    }
+  }
+}
+

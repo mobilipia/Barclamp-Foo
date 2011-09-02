@@ -1,0 +1,13 @@
+Source: barclamp-foo
+Section: unknown
+Priority: extra
+Maintainer: Dell Openstack <openstack@dell.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: http://dell.com/openstack
+
+Package: barclamp-foo
+Architecture: all
+Depends: barclamp-crowbar
+Description: Foo Barclamp for Crowbar
+ Provides the foo barclamp for crowbar
