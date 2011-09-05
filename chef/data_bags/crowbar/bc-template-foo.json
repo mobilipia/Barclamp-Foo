@@ -1,6 +1,6 @@
 {
   "id": "bc-template-foo",
-  "description": "Cloud Foundry service (OpenPaaS) for the cloud",
+  "description": "Test Foo Barclamp",
   "attributes": {
     "foo": {
       "foo": "bar"
